@@ -5,15 +5,15 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Projects = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Projects" />
     
     <div>
-
+<h1>HELLO PROJECTS</h1>
     </div>
-
+    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
-export default IndexPage
+export default Projects
